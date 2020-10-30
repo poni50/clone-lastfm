@@ -1,0 +1,118 @@
+#logoContainer {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#logoContainer>img {
+    padding: 10px;
+    padding-top: 20px;
+}
+
+main {
+    background-color: red;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#menu {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#menu p {
+    font-size: 24px;
+}
+
+#menu a:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #222;
+}
+
+#menu a:visited {
+    color: #222;
+}
+
+.focused {
+    color: #B90000;
+}
+
+#rock {
+    background-image: url("https://lastfm.freetls.fastly.net/i/u/avatar300s/366962d5733a4aee8bee4a136c239d47.jpg");
+    filter: sepia(90%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hiphop {
+    background-image: url("https://lastfm.freetls.fastly.net/i/u/avatar300s/51810a59cb17449bb2d6b8b62d63ce78.jpg");
+    filter: contrast(200%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#indie {
+    background-image: url("https://lastfm.freetls.fastly.net/i/u/avatar300s/c825233e09af4641a5ce7b6ece883aae.jpg");
+    filter: grayscale(50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#jazz {
+    background-image: url("https://lastfm.freetls.fastly.net/i/u/avatar300s/c0a9af93c8c843afb43cd6dc24b0bbf3.jpg");
+    filter: hue-rotate(90deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#reggae {
+    background-image: url("https://lastfm.freetls.fastly.net/i/u/avatar300s/94428d295a60403e9327cbfb86e2fbf6.jpg");
+    filter: saturate(10%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.genreContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.genre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
