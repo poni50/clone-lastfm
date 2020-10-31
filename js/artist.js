@@ -1,8 +1,8 @@
 class Artist {
 
-    constructor(name, songs) {
+    constructor(name) {
         this.name = name;
-        this.songs = songs;
+        this.songs = [];
     }
 
     addSong(song) {
