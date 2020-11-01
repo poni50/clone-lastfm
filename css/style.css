@@ -11,41 +11,63 @@
     padding-top: 20px;
 }
 
-main {
-    background-color: red;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
 #menu {
-    width: 40%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
 #menu p {
-    font-size: 24px;
-}
-
-#menu a:link {
-    text-decoration: none;
+    font-size: 18px;
     font-weight: bold;
-    color: #222;
-}
-
-#menu a:visited {
-    color: #222;
+    margin-right: 25px;
 }
 
 .focused {
     color: #B90000;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#songList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.song {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.song>* {
+    margin-right: 15px;
+}
+
+.song>p:last-of-type {
+    margin-left: auto;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.even {
+    background-color: #f2f2f2;
 }
 
 #rock {
@@ -91,9 +113,9 @@ main {
 .genreContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -104,9 +126,12 @@ main {
     align-items: center;
     width: 150px;
     height: 150px;
+    min-width: 150px;
+    min-height: 150px;
     color: white;
     font-size: 20px;
     font-weight: bold;
+    margin-right: 50px;
 }
 
 header {

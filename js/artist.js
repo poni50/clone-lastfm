@@ -8,4 +8,10 @@ class Artist {
     addSong(song) {
         this.songs.push(song);
     }
+
+    totalListeners() {
+        return this.songs.reduce((prev, next) => {
+            return prev += parseInt(next.listeners);
+        }, 0);
+    }
 }
